@@ -38,7 +38,7 @@ while running:
 		blank = Box(bg,posx,posy,False)
 		all_sprites.add(blank)
 	elif mouse == 2:
-		pass
+		pg.image.save(screen, "screenshot.jpg")
 	all_sprites.draw(screen)
 	all_sprites.update()
 	pg.display.update()
